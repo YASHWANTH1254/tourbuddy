@@ -1,0 +1,21 @@
+.about-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    color: aliceblue;
+  }
+  
+  .about-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .about-description {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+  }
+  

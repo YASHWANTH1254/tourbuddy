@@ -1,0 +1,76 @@
+/* Style the header */
+
+.bg{
+  background-color: rgb(245, 231, 231);
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+/* Card overlay styles */
+.card:hover .card-img-overlay {
+  transform: translateY(60%);
+}
+
+.card-img-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 1rem;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  transition: transform 0.3s ease;
+  transform: translateY(100%);
+}
+
+.container {
+  margin-top: 20px;
+  font-family: sans-serif;
+}
+
+/* Style the card */
+.card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
+}
+
+/* Style the card image */
+.card-img-top {
+  width: 300px;
+  height: 200px;
+}
+
+/* Style the card body */
+.card-body {
+  padding: 10px 20px;
+  background-color: transparent;
+}
+
+/* Style the card title */
+.card-title {
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+/* Style the card text */
+.card-text {
+  color: #fff;
+  font-size: 12px;
+}
+.card:hover {
+  transform: scale(1.2);
+  z-index: 2;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.txt{
+  text-align: center;
+  margin-top: 100px;
+}
